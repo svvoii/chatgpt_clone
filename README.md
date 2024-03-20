@@ -6,7 +6,10 @@
 python main.py
 ```
 
-### To set up:
+### To set up:  
+
+After cloning this repo `cd` inside.  
+
 #### 1. Create a virtual environment
 ```bash
 python3 -m venv venv
@@ -67,8 +70,8 @@ pip3 install typer openai python-dotenv
 
 #### 3. Clone the repository:
 ```bash
-git clone https://github.com/svvoii/gpt-clone.git
-cd gpt-clone
+git clone https://github.com/svvoii/chatgpt_clone.git
+cd chatgpt_clone
 ```
 
 #### 4. Installing virtual environment:
