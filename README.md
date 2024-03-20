@@ -34,7 +34,7 @@ OPENAI_API_KEY=<your-api-key>
 python main.py
 ```
 
-#### TO REVOVE THE VIRTUAL ENVIRONMENT
+#### TO REMOVE THE VIRTUAL ENVIRONMENT
 ```bash
 deactivate
 
@@ -50,6 +50,7 @@ macOS
 
 brew install python
 
+# to check if python is installed
 python3 --version
 pip3 --version
 ```
@@ -64,11 +65,10 @@ brew install pyenv-virtualenv
 pip3 install typer openai python-dotenv
 ```
 
-#### 3. Creating working directory:
+#### 3. Clone the repository:
 ```bash
-mkdir chatgpt_clone
-
-cd chatgpt_clone
+git clone https://github.com/svvoii/gpt-clone.git
+cd gpt-clone
 ```
 
 #### 4. Installing virtual environment:
@@ -84,11 +84,20 @@ pyenv activate chatgpt_clone
 #### 6. Creating .env file:
 ```bash
 touch .env
-
-#see above..
 ```
 
-#### 7. To deactivate virtual environment:
+#### 7. Adding API key to .env file:
+```bash
+OPENAI_API_KEY=<your-api-key>
+```
+
+### To run:
+```bash
+python main.py
+# or python3 main.py
+```
+
+#### To deactivate virtual environment:
 ```bash
 source deactivate
 ```
